@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Calculo";
+}
+<script>
+    var par = 0;
+    var impar = 0;
+    function ConsultarNumero() {
+        
+        var numero = $("#number").val();
+        if (numero % 2 == 0) {
+            par++;
+        } else {
+            impar++;
+        }
+        $('#pares').val(par);
+        $('#impares').val(impar);
+    }
+</script>
+
+<div class="text-dark">
+    <h1 class="display-4">Dennis Zamora Araya</h1>
+
+    <p>Digite un numero</p>
+    <input type="number" id="number" name="number" />
+    <input type="button" value="Enviar" onclick="ConsultarNumero()" />
+</div>
+
+<div class="text-center">
+    <p>Pares</p>
+    <input type="number" id="pares" name="pares" title="Pares" readonly/>
+    <p>Impares</p>
+    <input type="number" id="impares" name="impares" title="Impares" readonly/>
+</div>
+
+

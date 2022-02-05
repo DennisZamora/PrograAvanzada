@@ -23,7 +23,7 @@ namespace TareaS02.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Prueba()
         {
             return View();
         }
