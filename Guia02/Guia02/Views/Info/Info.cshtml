@@ -1,5 +1,26 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "NavBar";
 }
+
+
+<nav class="nav">
+    <a class="nav-link active" aria-current="page" href="https://www.youtube.com/watch?v=fY_O1Fb-e5Y">Que es Bootstrap</a>
+    <a class="nav-link" href="https://www.youtube.com/watch?v=hqH8jk7t32Q">Como implementar bootstraps</a>
+</nav>
+
+<div class="text-body">
+    <h1 class="display-4">Bootstrap</h1>
+    <p>Bootstrap es un marco de trabajo desarrollado en Twitter, el cual a través de clases y selectores de HTML permite la inclusión de estilos de CSS predeterminados lo que hace que el diagramado de páginas usando este marco sea más fácil y rápida.</a>.</p>
+</div>
+
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Mas informacion
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=hqH8jk7t32Q">Como implementar bootstraps</a></li>
+        <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=fY_O1Fb-e5Y">Que es Bootstrap</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+</div>
+
