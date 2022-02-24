@@ -64,7 +64,6 @@ C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\API\obj\Debu
 C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\API\obj\Debug\netcoreapp3.1\API.dll
 C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\API\obj\Debug\netcoreapp3.1\API.pdb
 C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
-C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\API\obj\Debug\netcoreapp3.1\API.csproj.AssemblyReference.cache
 C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll

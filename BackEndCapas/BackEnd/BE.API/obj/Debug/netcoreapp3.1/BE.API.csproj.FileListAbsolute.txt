@@ -66,3 +66,14 @@ C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.API\obj\D
 C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.API\obj\Debug\netcoreapp3.1\BE.API.dll
 C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.API\obj\Debug\netcoreapp3.1\BE.API.pdb
 C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.API\obj\Debug\netcoreapp3.1\BE.API.genruntimeconfig.cache
+C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.API\bin\Debug\netcoreapp3.1\BE.BS.dll
+C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.API\bin\Debug\netcoreapp3.1\BE.DAL.dll
+C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.API\bin\Debug\netcoreapp3.1\BE.DAL.DO.dll
+C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.API\bin\Debug\netcoreapp3.1\BE.DAL.EF.dll
+C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.API\bin\Debug\netcoreapp3.1\BE.DAL.Repository.dll
+C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.API\bin\Debug\netcoreapp3.1\BE.BS.pdb
+C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.API\bin\Debug\netcoreapp3.1\BE.DAL.EF.pdb
+C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.API\bin\Debug\netcoreapp3.1\BE.DAL.pdb
+C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.API\bin\Debug\netcoreapp3.1\BE.DAL.DO.pdb
+C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.API\bin\Debug\netcoreapp3.1\BE.DAL.Repository.pdb
+C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.API\obj\Debug\netcoreapp3.1\BE.API.csproj.AssemblyReference.cache

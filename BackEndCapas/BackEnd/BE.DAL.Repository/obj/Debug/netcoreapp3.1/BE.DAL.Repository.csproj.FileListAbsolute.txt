@@ -11,3 +11,8 @@ C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.DAL.Repos
 C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.DAL.Repository\obj\Debug\netcoreapp3.1\BE.DAL.Repository.pdb
 C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.DAL.Repository\obj\Debug\netcoreapp3.1\BE.DAL.Repository.genruntimeconfig.cache
 C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.DAL.Repository\obj\Debug\netcoreapp3.1\BE.DAL.Repository.csproj.AssemblyReference.cache
+C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.DAL.Repository\bin\Debug\netcoreapp3.1\BE.DAL.DO.dll
+C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.DAL.Repository\bin\Debug\netcoreapp3.1\BE.DAL.EF.dll
+C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.DAL.Repository\bin\Debug\netcoreapp3.1\BE.DAL.EF.pdb
+C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.DAL.Repository\bin\Debug\netcoreapp3.1\BE.DAL.DO.pdb
+C:\Users\denza\Documents\GitHub\PrograAvanzada\BackEndCapas\BackEnd\BE.DAL.Repository\obj\Debug\netcoreapp3.1\BE.DAL.Repository.csproj.CopyComplete
