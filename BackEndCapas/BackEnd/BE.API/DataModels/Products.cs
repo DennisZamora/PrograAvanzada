@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace BE.DAL.DO.Objectos
+namespace BE.API.DataModels
 {
-    
-        public partial class Products
-        {
+    public class Products
+    {
             public Products()
             {
-            //OrderDetails = new HashSet<OrderDetails>();
-        }
+                //OrderDetails = new HashSet<OrderDetails>();
+            }
 
             public int ProductId { get; set; }
             public string ProductName { get; set; }
@@ -26,7 +26,7 @@ namespace BE.DAL.DO.Objectos
 
             public virtual Categories Category { get; set; }
             //public virtual Suppliers Supplier { get; set; }
-           // public virtual ICollection<OrderDetails> OrderDetails { get; set; }
+            // public virtual ICollection<OrderDetails> OrderDetails { get; set; }
         }
-    
-}
+ }
+
