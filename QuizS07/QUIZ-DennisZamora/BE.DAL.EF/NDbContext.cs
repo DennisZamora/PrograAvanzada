@@ -18,9 +18,12 @@ namespace BE.DAL.EF
         }
         public virtual DbSet<Customers> Customers { get; set; }
 
+        //public virtual DbSet<CustomerCustomerDemo> CustomerCustomerDemo { get; set; }
+        public virtual DbSet<CustomerDemographics> CustomerDemographics { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-           
+
             //modelBuilder.Entity<CustomerCustomerDemo>(entity =>
             //{
             //    entity.HasKey(e => new { e.CustomerId, e.CustomerTypeId })
@@ -49,18 +52,18 @@ namespace BE.DAL.EF
             //        .HasConstraintName("FK_CustomerCustomerDemo");
             //});
 
-            //modelBuilder.Entity<CustomerDemographics>(entity =>
-            //{
-            //    entity.HasKey(e => e.CustomerTypeId)
-            //        .IsClustered(false);
+            modelBuilder.Entity<CustomerDemographics>(entity =>
+            {
+                entity.HasKey(e => e.CustomerTypeId)
+                    .IsClustered(false);
 
-            //    entity.Property(e => e.CustomerTypeId)
-            //        .HasColumnName("CustomerTypeID")
-            //        .HasMaxLength(10)
-            //        .IsFixedLength();
+                entity.Property(e => e.CustomerTypeId)
+                    .HasColumnName("CustomerTypeID")
+                    .HasMaxLength(10)
+                    .IsFixedLength();
 
-            //    entity.Property(e => e.CustomerDesc).HasColumnType("ntext");
-            //});
+                entity.Property(e => e.CustomerDesc).HasColumnType("ntext");
+            });
 
             modelBuilder.Entity<Customers>(entity =>
             {
