@@ -33,12 +33,12 @@ namespace BE.BS
             throw new NotImplementedException();
         }
 
-        public data.Customers GetOneById(int id)
+        public data.Customers GetOneById(string id)
         {
             return _dal.GetOneById(id);
         }
 
-        public Task<data.Customers> GetOneByIdAsync(int id)
+        public Task<data.Customers> GetOneByIdAsync(string id)
         {
             throw new NotImplementedException();
         }

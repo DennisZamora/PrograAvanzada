@@ -11,9 +11,9 @@ namespace BE.DAL.DO.Interfaces
         void Update(T t);
         void Delete(T t);
         IEnumerable<T> GetAll();
-        T GetOneById(int id);
+        T GetOneById(string id);
 
         Task<IEnumerable<T>> GetAllAsync();
-        Task<T> GetOneByIdAsync(int id);
+        Task<T> GetOneByIdAsync(string id);
     }
 }

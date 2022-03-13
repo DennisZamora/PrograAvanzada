@@ -51,7 +51,7 @@ namespace BE.DAL.Repository
             return dbContext.Set<T>().Where(predicado).FirstOrDefault();
         }
 
-        public T GetOnebyID(int id)
+        public T GetOnebyID(string id)
         {
             return dbContext.Set<T>().Find(id);
         }

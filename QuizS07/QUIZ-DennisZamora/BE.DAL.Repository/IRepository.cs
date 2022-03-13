@@ -12,7 +12,7 @@ namespace BE.DAL.Repository
         IEnumerable<T> GetAll();
         IEnumerable<T> Search(Expression<Func<T, bool>> predicado);
         T GetOne(Expression<Func<T, bool>> predicado);
-        T GetOnebyID(int id);
+        T GetOnebyID(string id);
 
         void Insert(T t);
         void Update(T t);

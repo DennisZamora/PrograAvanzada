@@ -32,12 +32,12 @@ namespace BE.DAL
             throw new NotImplementedException();
         }
 
-        public data.Customers GetOneById(int id)
+        public data.Customers GetOneById(string id)
         {
             return repo.GetOnebyID(id);
         }
 
-        public Task<data.Customers> GetOneByIdAsync(int id)
+        public Task<data.Customers> GetOneByIdAsync(string id)
         {
             throw new NotImplementedException();
         }
