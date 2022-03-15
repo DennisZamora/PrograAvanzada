@@ -18,39 +18,13 @@ namespace BE.DAL.EF
         }
         public virtual DbSet<Customers> Customers { get; set; }
 
-        //public virtual DbSet<CustomerCustomerDemo> CustomerCustomerDemo { get; set; }
+        public virtual DbSet<CustomerCustomerDemo> CustomerCustomerDemo { get; set; }
         public virtual DbSet<CustomerDemographics> CustomerDemographics { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
-            //modelBuilder.Entity<CustomerCustomerDemo>(entity =>
-            //{
-            //    entity.HasKey(e => new { e.CustomerId, e.CustomerTypeId })
-            //        .IsClustered(false);
-
-            //    entity.Property(e => e.CustomerId)
-            //        .HasColumnName("CustomerID")
-            //        .HasMaxLength(5)
-            //        .IsFixedLength();
-
-            //    entity.Property(e => e.CustomerTypeId)
-            //        .HasColumnName("CustomerTypeID")
-            //        .HasMaxLength(10)
-            //        .IsFixedLength();
-
-            //    entity.HasOne(d => d.Customer)
-            //        .WithMany(p => p.CustomerCustomerDemo)
-            //        .HasForeignKey(d => d.CustomerId)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("FK_CustomerCustomerDemo_Customers");
-
-            //    entity.HasOne(d => d.CustomerType)
-            //        .WithMany(p => p.CustomerCustomerDemo)
-            //        .HasForeignKey(d => d.CustomerTypeId)
-            //        .OnDelete(DeleteBehavior.ClientSetNull)
-            //        .HasConstraintName("FK_CustomerCustomerDemo");
-            //});
+           
 
             modelBuilder.Entity<CustomerDemographics>(entity =>
             {
@@ -97,11 +71,39 @@ namespace BE.DAL.EF
                 entity.Property(e => e.Region).HasMaxLength(15);
             });
 
-            
+            modelBuilder.Entity<CustomerCustomerDemo>(entity =>
+            {
+                entity.HasKey(e => new { e.CustomerId, e.CustomerTypeId })
+                    .IsClustered(false);
 
-            
+                entity.Property(e => e.CustomerId)
+                    .HasColumnName("CustomerID")
+                    .HasMaxLength(5)
+                    .IsFixedLength();
 
-            
+                entity.Property(e => e.CustomerTypeId)
+                    .HasColumnName("CustomerTypeID")
+                    .HasMaxLength(10)
+                    .IsFixedLength();
+
+                //entity.HasOne(d => d.Customer)
+                //    .WithMany(p => p.CustomerCustomerDemo)
+                //    .HasForeignKey(d => d.CustomerId)
+                //    .OnDelete(DeleteBehavior.ClientSetNull)
+                //    .HasConstraintName("FK_CustomerCustomerDemo_Customers");
+
+                //entity.HasOne(d => d.CustomerType)
+                //    .WithMany(p => p.CustomerCustomerDemo)
+                //    .HasForeignKey(d => d.CustomerTypeId)
+                //    .OnDelete(DeleteBehavior.ClientSetNull)
+                //    .HasConstraintName("FK_CustomerCustomerDemo");
+            });
+
+
+
+
+
+
 
             OnModelCreatingPartial(modelBuilder);
         }
