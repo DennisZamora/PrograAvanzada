@@ -1,7 +1,8 @@
+using AutoMapper;
+using BE.API.Mapping;
 using BE.DAL.EF;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -12,6 +13,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
 
 namespace BE.API
 {
@@ -24,15 +26,25 @@ namespace BE.API
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<NDbContext>(options =>
-              options.UseSqlServer(
-              Configuration.GetConnectionString("GoodConnection")));
+               options.UseSqlServer(
+               Configuration.GetConnectionString("GoodConnection")));
 
+            ////////// INICIO AutoMapper
+            var mappingConfig = new MapperConfiguration(mc => {
+                mc.AddProfile(new MappingProfile());
+            });
+
+            var mapper = mappingConfig.CreateMapper();
+
+            services.AddSingleton(mapper);
+            ////////// FIN AutoMapper
+            ///
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen();
+
             services.AddControllers();
         }
 

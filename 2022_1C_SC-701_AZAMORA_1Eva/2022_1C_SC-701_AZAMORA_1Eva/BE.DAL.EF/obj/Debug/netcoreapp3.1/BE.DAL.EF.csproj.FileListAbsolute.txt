@@ -1,0 +1,16 @@
+C:\Users\denza\Documents\GitHub\PrograAvanzada\2022_1C_SC-701_AZAMORA_1Eva\2022_1C_SC-701_AZAMORA_1Eva\BE.DAL.EF\bin\Debug\netcoreapp3.1\BE.DAL.EF.deps.json
+C:\Users\denza\Documents\GitHub\PrograAvanzada\2022_1C_SC-701_AZAMORA_1Eva\2022_1C_SC-701_AZAMORA_1Eva\BE.DAL.EF\bin\Debug\netcoreapp3.1\BE.DAL.EF.runtimeconfig.json
+C:\Users\denza\Documents\GitHub\PrograAvanzada\2022_1C_SC-701_AZAMORA_1Eva\2022_1C_SC-701_AZAMORA_1Eva\BE.DAL.EF\bin\Debug\netcoreapp3.1\BE.DAL.EF.runtimeconfig.dev.json
+C:\Users\denza\Documents\GitHub\PrograAvanzada\2022_1C_SC-701_AZAMORA_1Eva\2022_1C_SC-701_AZAMORA_1Eva\BE.DAL.EF\bin\Debug\netcoreapp3.1\BE.DAL.EF.dll
+C:\Users\denza\Documents\GitHub\PrograAvanzada\2022_1C_SC-701_AZAMORA_1Eva\2022_1C_SC-701_AZAMORA_1Eva\BE.DAL.EF\bin\Debug\netcoreapp3.1\BE.DAL.EF.pdb
+C:\Users\denza\Documents\GitHub\PrograAvanzada\2022_1C_SC-701_AZAMORA_1Eva\2022_1C_SC-701_AZAMORA_1Eva\BE.DAL.EF\obj\Debug\netcoreapp3.1\BE.DAL.EF.csproj.AssemblyReference.cache
+C:\Users\denza\Documents\GitHub\PrograAvanzada\2022_1C_SC-701_AZAMORA_1Eva\2022_1C_SC-701_AZAMORA_1Eva\BE.DAL.EF\obj\Debug\netcoreapp3.1\BE.DAL.EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denza\Documents\GitHub\PrograAvanzada\2022_1C_SC-701_AZAMORA_1Eva\2022_1C_SC-701_AZAMORA_1Eva\BE.DAL.EF\obj\Debug\netcoreapp3.1\BE.DAL.EF.AssemblyInfoInputs.cache
+C:\Users\denza\Documents\GitHub\PrograAvanzada\2022_1C_SC-701_AZAMORA_1Eva\2022_1C_SC-701_AZAMORA_1Eva\BE.DAL.EF\obj\Debug\netcoreapp3.1\BE.DAL.EF.AssemblyInfo.cs
+C:\Users\denza\Documents\GitHub\PrograAvanzada\2022_1C_SC-701_AZAMORA_1Eva\2022_1C_SC-701_AZAMORA_1Eva\BE.DAL.EF\obj\Debug\netcoreapp3.1\BE.DAL.EF.csproj.CoreCompileInputs.cache
+C:\Users\denza\Documents\GitHub\PrograAvanzada\2022_1C_SC-701_AZAMORA_1Eva\2022_1C_SC-701_AZAMORA_1Eva\BE.DAL.EF\obj\Debug\netcoreapp3.1\BE.DAL.EF.dll
+C:\Users\denza\Documents\GitHub\PrograAvanzada\2022_1C_SC-701_AZAMORA_1Eva\2022_1C_SC-701_AZAMORA_1Eva\BE.DAL.EF\obj\Debug\netcoreapp3.1\BE.DAL.EF.pdb
+C:\Users\denza\Documents\GitHub\PrograAvanzada\2022_1C_SC-701_AZAMORA_1Eva\2022_1C_SC-701_AZAMORA_1Eva\BE.DAL.EF\obj\Debug\netcoreapp3.1\BE.DAL.EF.genruntimeconfig.cache
+C:\Users\denza\Documents\GitHub\PrograAvanzada\2022_1C_SC-701_AZAMORA_1Eva\2022_1C_SC-701_AZAMORA_1Eva\BE.DAL.EF\bin\Debug\netcoreapp3.1\BE.DAL.DO.dll
+C:\Users\denza\Documents\GitHub\PrograAvanzada\2022_1C_SC-701_AZAMORA_1Eva\2022_1C_SC-701_AZAMORA_1Eva\BE.DAL.EF\bin\Debug\netcoreapp3.1\BE.DAL.DO.pdb
+C:\Users\denza\Documents\GitHub\PrograAvanzada\2022_1C_SC-701_AZAMORA_1Eva\2022_1C_SC-701_AZAMORA_1Eva\BE.DAL.EF\obj\Debug\netcoreapp3.1\BE.DAL.EF.csproj.CopyComplete
