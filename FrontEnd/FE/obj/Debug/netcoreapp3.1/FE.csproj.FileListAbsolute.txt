@@ -46,3 +46,4 @@ C:\Users\denza\Documents\GitHub\PrograAvanzada\FrontEnd\FE\obj\Debug\netcoreapp3
 C:\Users\denza\Documents\GitHub\PrograAvanzada\FrontEnd\FE\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
 C:\Users\denza\Documents\GitHub\PrograAvanzada\FrontEnd\FE\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
 C:\Users\denza\Documents\GitHub\PrograAvanzada\FrontEnd\FE\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
+C:\Users\denza\Documents\GitHub\PrograAvanzada\FrontEnd\FE\obj\Debug\netcoreapp3.1\FE.csproj.AssemblyReference.cache
