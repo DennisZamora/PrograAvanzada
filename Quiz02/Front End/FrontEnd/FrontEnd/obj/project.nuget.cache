@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PSJS3qn2Rgbzaq0GrfencGX3avdcQl+/Hc5yjqr6Tfv7b97VYYx7O+Wm0pq08Z3HP2XCKwqU5lVqsw2c40CXcg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\denza\\Documents\\GitHub\\PrograAvanzada\\Quiz02\\Front End\\FrontEnd\\FrontEnd\\FrontEnd.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\denza\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
