@@ -167,4 +167,3 @@ C:\Users\denza\Documents\GitHub\PrograAvanzada\Quiz02\Front End\FrontEnd\FrontEn
 C:\Users\denza\Documents\GitHub\PrograAvanzada\Quiz02\Front End\FrontEnd\FrontEnd.Wizard\obj\Debug\netcoreapp3.1\Razor\Views\Enrollments\Details.cshtml.g.cs
 C:\Users\denza\Documents\GitHub\PrograAvanzada\Quiz02\Front End\FrontEnd\FrontEnd.Wizard\obj\Debug\netcoreapp3.1\Razor\Views\Enrollments\Edit.cshtml.g.cs
 C:\Users\denza\Documents\GitHub\PrograAvanzada\Quiz02\Front End\FrontEnd\FrontEnd.Wizard\obj\Debug\netcoreapp3.1\Razor\Views\Enrollments\Index.cshtml.g.cs
-C:\Users\denza\Documents\GitHub\PrograAvanzada\Quiz02\Front End\FrontEnd\FrontEnd.Wizard\obj\Debug\netcoreapp3.1\FrontEnd.Wizard.csproj.AssemblyReference.cache

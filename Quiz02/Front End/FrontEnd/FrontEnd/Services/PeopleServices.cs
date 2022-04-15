@@ -19,7 +19,7 @@ namespace FrontEnd.Services
                     cl.BaseAddress = new Uri(Program.baseurl);
                     cl.DefaultRequestHeaders.Clear();
                     cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                    HttpResponseMessage res = cl.DeleteAsync("api/Persons/" + t.Id.ToString()).Result;
+                    HttpResponseMessage res = cl.DeleteAsync("api/People/" + t.Id.ToString()).Result;
 
                     if (!res.IsSuccessStatusCode)
                     {
@@ -41,7 +41,7 @@ namespace FrontEnd.Services
                 cl.BaseAddress = new Uri(Program.baseurl);
                 cl.DefaultRequestHeaders.Clear();
                 cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res = cl.GetAsync("api/Persons").Result;
+                HttpResponseMessage res = cl.GetAsync("api/People").Result;
 
                 if (res.IsSuccessStatusCode)
                 {
@@ -66,7 +66,7 @@ namespace FrontEnd.Services
                 cl.BaseAddress = new Uri(Program.baseurl);
                 cl.DefaultRequestHeaders.Clear();
                 cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res = cl.GetAsync("api/Persons/" + id).Result;
+                HttpResponseMessage res = cl.GetAsync("api/People/" + id).Result;
 
                 if (res.IsSuccessStatusCode)
                 {
@@ -94,7 +94,7 @@ namespace FrontEnd.Services
                     var buffer = System.Text.Encoding.UTF8.GetBytes(content);
                     var byteContent = new ByteArrayContent(buffer);
                     byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
-                    var postTask = cl.PostAsync("api/Persons", byteContent).Result;
+                    var postTask = cl.PostAsync("api/People", byteContent).Result;
 
                     if (!postTask.IsSuccessStatusCode)
                     {
@@ -119,7 +119,7 @@ namespace FrontEnd.Services
                     var buffer = System.Text.Encoding.UTF8.GetBytes(content);
                     var byteContent = new ByteArrayContent(buffer);
                     byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
-                    var postTask = cl.PutAsync("api/Persons/" + t.Id, byteContent).Result;
+                    var postTask = cl.PutAsync("api/People/" + t.Id, byteContent).Result;
 
 
                     if (!postTask.IsSuccessStatusCode)

@@ -1,3 +1,4 @@
+using FrontEnd.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -23,6 +24,12 @@ namespace FrontEnd
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddScoped<IPeopleServices, PeopleServices>();
+            services.AddScoped<IOfficeAssignmentServices, OfficeAssignmentServices>();
+            services.AddScoped<IDepartmentsServices, DepartmentsServices>();
+            services.AddScoped<IEnrollmentServices, EnrollmentServices>();
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

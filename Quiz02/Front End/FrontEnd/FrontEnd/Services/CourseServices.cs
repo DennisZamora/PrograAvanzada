@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace FrontEnd.Services
 {
-    public class OfficeAssignmentServices : IOfficeAssignmentServices
+    public class CourseServices : ICourseServices
     {
-        public void Delete(OfficeAssignment t)
+        public void Delete(Course t)
         {
             try
             {
@@ -19,7 +19,7 @@ namespace FrontEnd.Services
                     cl.BaseAddress = new Uri(Program.baseurl);
                     cl.DefaultRequestHeaders.Clear();
                     cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                    HttpResponseMessage res = cl.DeleteAsync("api/OfficeAssignments/" + t.InstructorId.ToString()).Result;
+                    HttpResponseMessage res = cl.DeleteAsync("api/Courses/" + t.CourseId.ToString()).Result;
 
                     if (!res.IsSuccessStatusCode)
                     {
@@ -33,85 +33,85 @@ namespace FrontEnd.Services
             }
         }
 
-        public IEnumerable<OfficeAssignment> GetAll()
+        public IEnumerable<Course> GetAll()
         {
-            List<Models.OfficeAssignment> aux = new List<Models.OfficeAssignment>();
+            List<Models.Course> aux = new List<Models.Course>();
             using (var cl = new HttpClient())
             {
                 cl.BaseAddress = new Uri(Program.baseurl);
                 cl.DefaultRequestHeaders.Clear();
                 cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res = cl.GetAsync("api/OfficeAssignments").Result;
+                HttpResponseMessage res = cl.GetAsync("api/Courses").Result;
 
                 if (res.IsSuccessStatusCode)
                 {
                     var auxres = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<List<Models.OfficeAssignment>>(auxres);
+                    aux = JsonConvert.DeserializeObject<List<Models.Course>>(auxres);
                 }
             }
             return aux;
         }
 
         //No se implementa ya que el api este metodo no lo contiene 
-        public async Task<IEnumerable<OfficeAssignment>> GetAllAsync()
+        public async Task<IEnumerable<Course>> GetAllAsync()
         {
-            List<Models.OfficeAssignment> aux = new List<Models.OfficeAssignment>();
+            List<Models.Course> aux = new List<Models.Course>();
             using (var cl = new HttpClient())
             {
                 cl.BaseAddress = new Uri(Program.baseurl);
                 cl.DefaultRequestHeaders.Clear();
                 cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res = await cl.GetAsync("api/OfficeAssignments");
+                HttpResponseMessage res = await cl.GetAsync("api/Courses");
 
                 if (res.IsSuccessStatusCode)
                 {
                     var auxres = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<List<Models.OfficeAssignment>>(auxres);
+                    aux = JsonConvert.DeserializeObject<List<Models.Course>>(auxres);
                 }
             }
             return aux;
         }
 
-        public OfficeAssignment GetOneById(int id)
+        public Course GetOneById(int id)
         {
-            Models.OfficeAssignment aux = new Models.OfficeAssignment();
+            Models.Course aux = new Models.Course();
             using (var cl = new HttpClient())
             {
                 cl.BaseAddress = new Uri(Program.baseurl);
                 cl.DefaultRequestHeaders.Clear();
                 cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res = cl.GetAsync("api/OfficeAssignments/" + id).Result;
+                HttpResponseMessage res = cl.GetAsync("api/Courses/" + id).Result;
 
                 if (res.IsSuccessStatusCode)
                 {
                     var auxres = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<Models.OfficeAssignment>(auxres);
+                    aux = JsonConvert.DeserializeObject<Models.Course>(auxres);
                 }
             }
             return aux;
         }
 
         //No se implementa ya que el api este metodo no lo contiene 
-        public async Task<OfficeAssignment> GetOneByIdAsync(int id)
+        public async Task<Course> GetOneByIdAsync(int id)
         {
-            Models.OfficeAssignment aux = new Models.OfficeAssignment();
+            Models.Course aux = new Models.Course();
             using (var cl = new HttpClient())
             {
                 cl.BaseAddress = new Uri(Program.baseurl);
                 cl.DefaultRequestHeaders.Clear();
                 cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res = await cl.GetAsync("api/OfficeAssignments/" + id);
+                HttpResponseMessage res = await cl.GetAsync("api/Courses/" + id);
 
                 if (res.IsSuccessStatusCode)
                 {
                     var auxres = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<Models.OfficeAssignment>(auxres);
+                    aux = JsonConvert.DeserializeObject<Models.Course>(auxres);
                 }
             }
             return aux;
         }
 
-        public void Insert(OfficeAssignment t)
+        public void Insert(Course t)
         {
             try
             {
@@ -122,7 +122,7 @@ namespace FrontEnd.Services
                     var buffer = System.Text.Encoding.UTF8.GetBytes(content);
                     var byteContent = new ByteArrayContent(buffer);
                     byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
-                    var postTask = cl.PostAsync("api/OfficeAssignments", byteContent).Result;
+                    var postTask = cl.PostAsync("api/Courses", byteContent).Result;
 
                     if (!postTask.IsSuccessStatusCode)
                     {
@@ -136,7 +136,7 @@ namespace FrontEnd.Services
             }
         }
 
-        public void Update(OfficeAssignment t)
+        public void Update(Course t)
         {
             try
             {
@@ -147,7 +147,7 @@ namespace FrontEnd.Services
                     var buffer = System.Text.Encoding.UTF8.GetBytes(content);
                     var byteContent = new ByteArrayContent(buffer);
                     byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
-                    var postTask = cl.PutAsync("api/OfficeAssignments/" + t.InstructorId, byteContent).Result;
+                    var postTask = cl.PutAsync("api/Courses/" + t.CourseId, byteContent).Result;
 
 
                     if (!postTask.IsSuccessStatusCode)

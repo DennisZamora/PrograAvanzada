@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FrontEnd.Services
 {
-    public interface IOfficeAssignmentervices
+    public interface IOfficeAssignmentServices
     {
         void Insert(OfficeAssignment t);
         void Update(OfficeAssignment t);
